@@ -10,3 +10,8 @@ $(document).ready(function(){
   });
 });
 
+  var pathname = window.location.pathname;
+  if (!pathname.includes('404')) {
+    window.location.href = './404.html';
+  }
+
